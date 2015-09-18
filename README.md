@@ -1,14 +1,15 @@
 setup
 ===========================
 
+gulp @TODO まだ動かない
 ```bash
-$ npm install -g watchify gulp
+$ brew install node
 $ npm install
 $ gulp
 ```
 
-
-
-TODO
-===========================
+```bash
+$ browserify -t babelify  src/app.js -o dist/app.js
+$ npm start
+```
 
